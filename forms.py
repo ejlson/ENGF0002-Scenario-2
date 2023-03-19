@@ -13,3 +13,4 @@ class MatrixBForm(forms.Form):
         for i in range(3):
             for j in range(3):
                 self.fields[f'matrix_b_{i}{j}'] = forms.FloatField(label=f"B{i+1}{j+1}", required=False)
+
